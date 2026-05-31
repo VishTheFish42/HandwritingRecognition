@@ -1,0 +1,17 @@
+# Training deps — installs CUDA-capable torch by default.
+# On a CPU-only machine, add --extra-index-url https://download.pytorch.org/whl/cpu
+# and replace torch/torchvision with their +cpu variants.
+torch==2.3.1
+torchvision==0.18.1
+
+opencv-python==4.10.0.84
+Pillow==10.3.0
+numpy==1.26.4
+lmdb==1.4.1
+wandb==0.17.3
+
+# Evaluation metrics
+editdistance==0.8.1
+
+# Synthetic data generation
+trdg==1.8.0

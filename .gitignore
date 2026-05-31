@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+*.pth
+
+# ML artifacts — tracked separately via model_registry.json
+ml/checkpoints/*.pt
+ml/checkpoints/*.onnx
+
+# Data — large files, download via scripts
+data/
+!data/.gitkeep
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Node / frontend
+node_modules/
+frontend/dist/
+frontend/.env*
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Wandb
+wandb/
