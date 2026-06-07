@@ -66,7 +66,7 @@
 ## Data Requirements
 
 ### DR-1: English Training Data
-- IAM Handwriting Database (must register and download from official source)
+- IAM Handwriting Database — available via Hugging Face (`Teklia/IAM-line`); no registration required. Run `python ml/download_iam.py` to fetch.
 - Minimum 10,000 labeled line images for training
 
 ### DR-2: Tamil Training Data

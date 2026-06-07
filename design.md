@@ -145,7 +145,7 @@ For canvas-drawn strokes, preprocessing is lighter (strokes are already clean); 
 ### English
 | Dataset | Description | Size |
 |---------|-------------|------|
-| IAM Handwriting Database | Forms, lines, words — multiple writers | ~1,500 writers, 13k+ lines |
+| IAM Handwriting Database (`Teklia/IAM-line` on Hugging Face) | Lines split — multiple writers; no registration required | 10,373 lines across train/val/test |
 | EMNIST | Isolated characters | 800k+ samples |
 | CVL Database | Additional writer variation | ~310 writers |
 

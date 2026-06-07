@@ -20,11 +20,11 @@ Tasks are grouped by phase and layer. Complete Phase 0 before starting Phase 1. 
 
 ### 1A: Data — English
 
-- [ ] **P1-A1** Register and download the **IAM Handwriting Database** (lines split); store in `/data/iam/`
-- [ ] **P1-A2** Write a dataset loader (`ml/datasets/iam.py`) that reads IAM line images and ground-truth transcriptions into PyTorch `Dataset`
-- [ ] **P1-A3** Implement data augmentation transforms: rotation, elastic distortion, noise, brightness jitter (`ml/transforms.py`)
-- [ ] **P1-A4** Build LMDB cache of preprocessed images for fast training I/O
-- [ ] **P1-A5** Validate the loader: sample 10 items, render them, confirm transcription alignment
+- [x] **P1-A1** Download the **IAM Handwriting Database** (lines split) via Hugging Face (`Teklia/IAM-line`); store in `/data/iam/`
+- [x] **P1-A2** Write a dataset loader (`ml/datasets/iam.py`) that reads IAM line images and ground-truth transcriptions into PyTorch `Dataset`
+- [x] **P1-A3** Implement data augmentation transforms: rotation, elastic distortion, noise, brightness jitter (`ml/transforms.py`)
+- [x] **P1-A4** Build LMDB cache of preprocessed images for fast training I/O
+- [x] **P1-A5** Validate the loader: sample 10 items, render them, confirm transcription alignment
 
 ### 1B: Data — Tamil Phase 1
 

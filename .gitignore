@@ -17,6 +17,7 @@ ml/checkpoints/*.onnx
 # Data — large files, download via scripts
 data/
 !data/.gitkeep
+!data/**/.gitkeep
 
 # Notebooks
 .ipynb_checkpoints/
